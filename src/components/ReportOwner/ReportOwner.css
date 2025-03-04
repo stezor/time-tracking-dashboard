@@ -83,7 +83,6 @@
   .report-owner__top > span {
     height: 6rem;
     width: 6rem;
-    border-width: 0.25rem;
   }
 
   .report-owner__top > p:first-of-type {
@@ -94,7 +93,7 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 0.5rem;
     font-size: 2rem;
     font-weight: 300;
