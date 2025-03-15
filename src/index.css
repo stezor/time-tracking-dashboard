@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
+  --white: hsl(0, 0%, 100%);
   --work: hsl(15, 100%, 70%);
   --play: hsl(195, 74%, 62%);
   --study: hsl(348, 100%, 68%);
@@ -11,7 +12,7 @@
   --dark-blue: hsl(235, 46%, 20%);
   --blue: hsl(246, 80%, 60%);
   --desaturated-blue: hsl(235, 45%, 61%);
-  --pale-lue: hsl(236, 100%, 87%);
+  --pale-blue: hsl(236, 100%, 87%);
 }
 
 * {
@@ -20,5 +21,6 @@
 
 body {
   margin: 0;
+  background-color: var(--very-dark-blue);
   font-family: "Rubik", sans-serif;
 }
